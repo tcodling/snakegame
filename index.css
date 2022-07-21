@@ -1,0 +1,24 @@
+#board {
+    /* border: 1px black solid;
+    width: 300px;
+    height: 300px; */
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    border: 1px black solid;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.red {
+    background-color: red;
+}
