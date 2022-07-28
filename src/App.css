@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+}
+
+#grid {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.cell {
+  height: 40px;
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  text-align: center;
+  margin: 1px;
+  font-size: 12px;
+  color: white
+}
+
+.active {
+  background-color: green;
+}
